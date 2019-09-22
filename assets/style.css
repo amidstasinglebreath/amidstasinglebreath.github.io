@@ -12,7 +12,7 @@ body{
 
 .navContent{
     background-color: #ffffff;
-    width: 960px;
+    width: 960;
     height: 90px;
     padding: 0px;
     border-bottom: 4px solid #dddddd;
@@ -29,4 +29,30 @@ body{
     width: 280px;
     margin-top: 0;
     padding: 21px 18px;
+}
+
+.linkObj{
+    float: right;
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 20px;
+}
+
+.linkObj li {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.centerNavs{
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
 }
