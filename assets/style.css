@@ -145,3 +145,34 @@ hr{
     top: 130px;
     z-index: 5;
 }
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #777777;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+input[type=message], select {
+    width: 100%;
+    padding: 100px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    width: 12%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 25px;
+    margin: 6px 0;
+    border: none;
+    cursor: pointer;
+}
