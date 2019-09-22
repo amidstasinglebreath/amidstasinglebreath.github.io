@@ -1,0 +1,32 @@
+body{
+    border: 0px;
+    margin: 0px;
+    background-image: url(https://amidstasinglebreath.github.io/assets/Images/circle-blues.png);
+    text-align: center;
+}
+
+.navbar{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.navContent{
+    background-color: #ffffff;
+    width: 960px;
+    height: 90px;
+    padding: 0px;
+    border-bottom: 4px solid #dddddd;
+}
+
+.titleS{
+    float: left;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 280px;
+    margin-top: 0;
+    padding: 21px 18px;
+}
