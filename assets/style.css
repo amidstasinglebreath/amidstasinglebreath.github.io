@@ -1,7 +1,7 @@
 body{
     border: 0px;
     margin: 0px;
-    background-image: url(https://amidstasinglebreath.github.io/assets/Images/circle-blues.png);
+    background-image: url(https://amidstasinglebreath.github.io/assets/Images/Background.jpg);
     text-align: center;
 }
 
@@ -97,15 +97,17 @@ hr{
 
 .footer{
     background-color: #666666;
-    padding: 5px 0px 0px 0px;
+    padding: 3px 0px 0px 0px;
     text-align: center;
     color: #ffffff;
-    border-top: 9px solid #4aaaa5;
+    border-top: 6px solid #4aaaa5;
     margin-top: 10%;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
+
+/*Portfolio*/
 
 .portfolioBox{
     width: 630px;
@@ -125,9 +127,9 @@ hr{
 }
 
 #stock{
-    position: absolute;
-    width: 270px;
-    height: 200px;
+    position: absolute left;
+    width: 260px;
+    height: 190px;
     margin: 0px;
     z-index: 1;
 }
@@ -146,10 +148,13 @@ hr{
     z-index: 5;
 }
 
+
+/*Contact*/
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     color: #777777;
+    float: left;
 }
 
 input[type=text], select {
